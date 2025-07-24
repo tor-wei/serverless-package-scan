@@ -1,7 +1,7 @@
 variable lambda_function_name {
     description     = "Name of lambda function"
     type            = string
-    default         = "${local.prefix}-package-scan-lambda-fn"
+    default         = "torwei-package-scan-lambda-fn"
 }
 
 variable lambda_file_name {
