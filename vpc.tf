@@ -1,5 +1,6 @@
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
+  version = "~> 5.0"
 
   name = var.vpc_name
   cidr = "10.0.0.0/16"
@@ -14,7 +15,7 @@ module "vpc" {
     Terraform = "true"
     Environment = "dev"
     Created_by = var.created_by
-    Cohort = "CE9"
+    Cohort = "CE10"
   }
 }
 
