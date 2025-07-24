@@ -24,7 +24,7 @@ Software often relies on various third-party packages or libraries to provide fu
 <b>GitHub Dependabot:</b> Built-in tool in GitHub that automatically checks for and creates pull requests to update dependencies.
 
 ## What is Snyk?
-![image](https://github.com/luqmannnn/serverless-package-scan/assets/9068525/f2c190b9-a470-4f85-bd13-2157b8a452a1)
+![image](https://github.com/tor-wei/serverless-package-scan/assets/9068525/f2c190b9-a470-4f85-bd13-2157b8a452a1)
 
 Snyk is a platform that allows you to scan, prioritize, and fix security vulnerabilities in your code, open-source dependencies, container images, and infrastructure as code configurations.
 
@@ -56,7 +56,7 @@ Also note that since npm audit fix runs a full-fledged npm install under the hoo
 ## Register for Snyk account
 1. Sign up for a Snyk account - https://snyk.io/
 2. Once logged in, you can see an overview of linked projects e.g. Github repositories that you import in the Dashboard.
-<img width="1440" alt="Screenshot 2023-11-25 at 12 19 45 AM" src="https://github.com/luqmannnn/serverless-package-scan/assets/9068525/7f1a9968-f8d6-44bc-adfa-0c82cf1600b2">
+<img width="1440" alt="Screenshot 2023-11-25 at 12 19 45 AM" src="https://github.com/tor-wei/serverless-package-scan/assets/9068525/7f1a9968-f8d6-44bc-adfa-0c82cf1600b2">
 3. Get your AP token by going to the bottom left (your name) > account settings > click to show key under Auth Token > copy token > create a Github Actions Secret in your Github repository called "SNYK_TOKEN"
 
 ## Write your lambda function
@@ -71,4 +71,4 @@ Also note that since npm audit fix runs a full-fledged npm install under the hoo
 1. Take a look at the sample .github/workflows/package-scan.yml file on a simple workflow to test IAC, Code and Open Source plugins + npm audit.
 
 ## BIG SUCCESS :D
-<img width="1440" alt="Screenshot 2023-11-25 at 12 24 34 AM" src="https://github.com/luqmannnn/serverless-package-scan/assets/9068525/fc3b8321-d1ab-4b5f-8378-d26c87d27c5c">
+<img width="1440" alt="Screenshot 2023-11-25 at 12 24 34 AM" src="https://github.com/tor-wei/serverless-package-scan/assets/9068525/fc3b8321-d1ab-4b5f-8378-d26c87d27c5c">
